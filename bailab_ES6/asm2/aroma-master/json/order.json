@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "hinh": "product1.png",
+        "name": "Danh mục 1",
+        "gia": "140",
+        "hienthi": 1,
+        "luotban": 290
+    },
+    {
+        "id": 2,
+        "hinh": "product2.png",
+        "name": "Danh mục 2",
+        "gia": "110",
+        "hienthi": 1,
+        "luotban": 20
+    },
+    {
+        "id": 3,
+        "hinh": "product3.png",
+        "name": "Danh mục 3",
+        "gia": "240",
+        "hienthi": 0,
+        "luotban": 29
+    }
+]

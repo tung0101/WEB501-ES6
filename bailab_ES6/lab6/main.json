@@ -1,0 +1,32 @@
+[
+  {
+      "id": 1,
+      "hinh": "sp1.jpg",
+      "ten": "sp1",
+      "sell": "best sller",
+      "gia":"49.000đ"
+  },
+  {
+    "id": 2,
+    "hinh": "sp2.jpg",
+    "ten": "sp2",
+    "sell": "best sller"   ,
+    "gia":"49.000đ"
+      
+  },
+  {
+    "id": 3,
+    "hinh": "sp3.jpg",
+    "ten": "sp3",
+    "sell": "",
+    "gia":"49.000đ"
+      
+  },
+  {
+    "id": 4,
+    "hinh": "sp4.jpg",
+    "ten": "sp4",
+    "sell": "",
+    "gia":"49.000đ"
+}
+]

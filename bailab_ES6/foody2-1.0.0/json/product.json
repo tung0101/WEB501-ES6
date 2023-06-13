@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "hinh": "product-1.jpg",
+    "ten": "Fresht Tomato",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 2,
+    "hinh": "product-2.jpg",
+    "ten": "Pineapple",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 3,
+    "hinh": "product-3.jpg",
+    "ten": "Chili Peppers",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 4,
+    "hinh": "product-4.jpg",
+    "ten": "Strawberry",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 5,
+    "hinh": "product-5.jpg",
+    "ten": "Cucumber",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 6,
+    "hinh": "product-6.jpg",
+    "ten": "Tomato",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 7,
+    "hinh": "product-7.jpg",
+    "ten": "Potato",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  },
+  {
+    "id": 8,
+    "hinh": "product-8.jpg",
+    "ten": "Banana",
+    "gia": "$19.00",
+    "giagoc": "$19.00"
+  }
+]

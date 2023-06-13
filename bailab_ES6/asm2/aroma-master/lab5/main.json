@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "hinh": "product1.png",
+        "name": "Danh mục 1",
+        "gia": "140",
+        "hienthi": 1,
+        "luotban": 290
+    },
+    {
+        "id": 2,
+        "hinh": "product2.png",
+        "name": "Danh mục 2",
+        "gia": "110",
+        "hienthi": 1,
+        "luotban": 20
+    },
+    {
+        "id": 3,
+        "hinh": "product3.png",
+        "name": "Danh mục 3",
+        "gia": "240",
+        "hienthi": 0,
+        "luotban": 29
+    },
+    {
+        "id": 4,
+        "hinh": "product4.png",
+        "name": "Danh mục 4",
+        "gia": "190",
+        "hienthi": 1,
+        "luotban": 90
+    },
+    {
+        "id": 5,
+        "hinh": "product5.png",
+        "name": "Danh mục 5",
+        "gia": "140",
+        "hienthi": 1,
+        "luotban": 210
+    },
+    {
+        "id": 1,
+        "hinh": "product1.png",
+        "name": "Danh mục 6",
+        "gia": "140",
+        "hienthi": 1,
+        "luotban": 220
+    },
+    {
+        "id": 2,
+        "hinh": "product2.png",
+        "name": "Danh mục 7",
+        "gia": "110",
+        "hienthi": 1,
+        "luotban": 250
+    },
+    {
+        "id": 3,
+        "hinh": "product3.png",
+        "name": "Danh mục 8",
+        "gia": "240",
+        "hienthi": 0,
+        "luotban": 230
+    },
+    {
+        "id": 4,
+        "hinh": "product4.png",
+        "name": "Danh mục 9",
+        "gia": "190",
+        "hienthi": 1,
+        "luotban": 190
+    },
+    {
+        "id": 5,
+        "hinh": "product5.png",
+        "name": "Danh mục 10",
+        "gia": "140",
+        "hienthi": 1,
+        "luotban": 390
+    }
+]

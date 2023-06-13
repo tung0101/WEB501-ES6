@@ -1,0 +1,21 @@
+[
+  {
+      "id": 1,
+      "image": "icon-1.png",
+      "name": "Natural Process",
+      "conten": "Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo."
+  },
+  {
+       "id": 2,
+      "image": "icon-2.png",
+      "name": "Organic Products",
+      "conten": "Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo."
+  }
+  ,
+  {
+       "id": 3,
+      "image": "icon-3.png",
+      "name": "Biologically Safe",
+      "conten": "Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo."
+  }
+]

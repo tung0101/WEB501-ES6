@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Hi- Tea Vải",
+        "price": 39000,
+        "url": "https://product.hstatic.net/1000075078/product/1669736893_hi-tea-vai_86427bfa982f48188db23833b7196f2a_large.png"
+    },
+    {
+        "id": 2,
+        "title": "Cà Phê Sữa Đá",
+        "price": 29000,
+        "url": "https://product.hstatic.net/1000075078/product/1669736835_ca-phe-sua-da_ec94966a51e74a089779e4b761090321_large.png"
+    },
+    {
+        "id": 3,
+        "title": "Bánh Mì VN Thịt Nguội",
+        "price": 35000,
+        "url": "https://product.hstatic.net/1000075078/product/1638440015_banh-mi-vietnam_02c90a5912f84a45b303eb5036b6dcb7_large.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Mochi Kem Chocolate",
+        "price": 22000,
+        "url": "https://product.hstatic.net/1000075078/product/1655348107_mochi-choco_6498979c562a466c91c61200bc86e96a_large.jpg"
+    }
+]

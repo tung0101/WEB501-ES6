@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Thông tin khách hàng</h1>
+
+    <p Email="demo"></p>
+
+    <!-- <script type="module">
+import message from "./lab67.js";
+
+document.getElementByEmail("demo").innerHTML = message();
+
+</script> -->
+
+    <!-- <script src="lab67.js"></script> -->
+
+    <script>
+        function Person(Name, Password, Email) {
+            this.Name = Name || "unknown";
+            this.Password = Password || "unknown";
+            this.Email = Email || "unknown";
+        }
+        Person.prototype.getFullName = function () {
+            return this.Name;
+        }
+        function Users(Name, Password, Email, address) {
+            Person.call(this, Name, Password, Email);
+            this.address = address || "unknown";
+            // this.Grade = grade || 0;
+        }
+        //Users.prototype = Person.prototype;
+        Users.prototype = new Person();
+        Users.prototype.constructor = Users;
+        var std = new Users(
+            "trung", "trung123", "trung@gmail.com", "10/9"
+        ); 
+        console.log(std);
+        console.log(std.getFullName()); // trung
+        console.log(std instanceof Users); // true
+        console.log(std instanceof Person); // true
+
+    </script>
+</body>
+
+</html>

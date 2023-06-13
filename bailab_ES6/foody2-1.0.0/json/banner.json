@@ -1,0 +1,13 @@
+[
+  {
+      "id": 1,
+      "image": "carousel-1.jpg",
+      "name": "Organic Food Is Good For Health",
+      "active": "active"
+  },
+  {
+      "id": 2,
+      "image": "carousel-2.jpg",
+      "name": "Organic Food Is Good For Health" 
+  }
+]

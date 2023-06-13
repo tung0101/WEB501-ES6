@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "hinh": "room1.jpg",
+    "name": "Bed Room",
+    "note": "If you are going to use a passage of Lorem Ipsum, you need to be sure there"
+  },
+  {
+    "id": 2,
+    "hinh": "room2.jpg",
+    "name": "Bed Room",
+    "note": "If you are going to use a passage of Lorem Ipsum, you need to be sure there"
+  },
+  {
+    "id": 3,
+    "hinh": "room3.jpg",
+    "name": "Bed Room",
+    "note": "If you are going to use a passage of Lorem Ipsum, you need to be sure there"
+  },
+  {
+    "id": 4,
+    "hinh": "room4.jpg",
+    "name": "Bed Room",
+    "note": "If you are going to use a passage of Lorem Ipsum, you need to be sure there"
+  },
+  {
+    "id": 5,
+    "hinh": "room5.jpg",
+    "name": "Bed Room",
+    "note": "If you are going to use a passage of Lorem Ipsum, you need to be sure there"
+  },
+  {
+    "id": 6,
+    "hinh": "room6.jpg",
+    "name": "Bed Room",
+    "note": "If you are going to use a passage of Lorem Ipsum, you need to be sure there"
+  }
+]

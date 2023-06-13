@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "image": "carousel-1.jpg",
+        "name": "Men Fashions",
+        "content": "hé nhô",
+        "active": "active"
+    },
+    {
+        "id": 2,
+        "image": "carousel-2.jpg",
+        "name": "New Fashions",
+        "content": "hé nhô2",
+        "active": ""    
+        
+    },
+    {
+        "id": 3,
+        "image": "carousel-3.jpg",
+        "name": "New Fashions",
+        "content": "hé nhô3",
+        "active": ""  
+        
+    },
+    {
+        "id": 4,
+        "image": "carousel-2.jpg",
+        "name": "Young Fashions",
+        "content": "hé nhô4",
+        "active": ""
+        
+    }
+]

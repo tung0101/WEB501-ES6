@@ -1,0 +1,60 @@
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item {
+    padding: 2px;
+}
+
+.silder__container--banner {
+    position: relative;
+}
+
+.silder__container--btns {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    left: 0;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__slider--banner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.btn__slider--banner:hover {
+    background-color: aqua;
+}
+
+.banner__left {
+    left: 20px;
+}
+
+.banner__right {
+    right: 20px;
+}
+
+.sider__btn {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+.active{
+    background-color: gray;
+}

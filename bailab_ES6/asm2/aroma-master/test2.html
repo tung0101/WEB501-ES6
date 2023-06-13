@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content "width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+
+#add-user-module {
+    width: 30px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#add-user-module #open-add-user-form-btn {
+    background: #54bb7d;
+    font-size: 1.5em;
+    color: white;
+    padding-bottom: 5px;
+}
+
+#add-user-module form {
+    position: absolute;
+    padding: 10px;
+    width: 150px;
+    background-color: #e1e1e1;
+    border: 1px solid #999;
+    display: none;
+}
+
+#add-user-module form input {
+    width: 97%;
+    margin: 2px 0;
+}
+
+#add-user-module form button {
+    background: #54bb7d;
+    font-size: 1em;
+    padding: 0px 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+#add-user-module:hover form {
+    display: block;
+}
+</style>
+<body>
+
+    <ul id="Certificates-List"></ul>
+    <input type="submit" value="gửi" onclick="GetAllData(PushData)">
+    <section id="add-user-module"> <button id="open-add-user-form-btn">+</button>
+        <form>
+            <h2>Add User</h2> name:<br> <input type='text' data-key='name' class='user-input'><br> age:<br> <input
+                type='text' data-key='age' class='user-input'><br> email:<br> <input type='text' data-key='email'
+                class='user-input'><br> <button type='button' id="add-user-btn">add user</button>
+        </form>
+    </section>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script>
+    var firebaseConfig = {
+        apikey: "AIzaSyCt1pKXRqiegCreGUN110EIT -5100d7xY",
+        authDomain: "test-45959.firebaseapp.com",
+        databaseURL: "https://shop-7ee53-default-rtdb.firebaseio.com",
+        projectId: "test-45959",
+        storageBucket: "test-45959.appspot.com",
+        messagingSenderId: "722480026888",
+        appId: "1: 722480026888: web: 75ab6126567ca8197288bd",
+    };
+
+    function GetAllData(callback) {
+        //var userData = require('./save_file.json');
+        // var fs = require('fs')
+        //   var obj = JSON.parse(fs.readFileSync('save_file.json').toString())
+        var a = 2;
+        if (typeof callback === 'function') {
+            callback();
+        }
+    }
+
+    function PushData() {
+        // Initialize your Firebase app
+        
+        firebase.initializeApp(firebaseConfig);
+        // Reference to your entire Firebase database
+        var myFirebase = firebase.database().ref("cart");
+        var recommendations = myFirebase.child("0");
+        setTimeout(pushStuff(), 500);
+        function pushStuff() {
+            recommendations.set({
+                "name": "hi"
+            });
+        }
+    };
+    //}
+
+    // GetAllData(PushData);
+
+    // Your web app's Firebase configuration
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    function addItemsToList(courseName, institute) {
+        var ul = document.getElementById("Certificates-List");
+
+        var _courseName = document.createElement("li");
+        var _institute = document.createElement("li");
+
+        _courseName.innerHTML = "Tên sp: " + courseName;
+        _institute.innerHTML = "Giá: " + institute;
+        
+        ul.appendChild(_courseName);
+        ul.appendChild(_institute);
+    }
+
+    function FetchAllData() {
+        firebase
+            .database()
+            .ref("listProduct")
+            .once("value", function (snapshot) {
+                snapshot.forEach(function (ChildSnapshot) {
+                    let courseName = ChildSnapshot.val().name;
+                    console.log(courseName);
+                    // return courseName;
+                    let institute = ChildSnapshot.val().gia;
+                    
+                    addItemsToList(courseName, institute);
+                    
+                    // return(courseName, institute);
+                    // function PushData() {
+                    //     // Initialize your Firebase app
+                    //     firebase.initializeApp(firebaseConfig);
+                    //     // Reference to your entire Firebase database
+                    //     var myFirebase = firebase.database().ref();
+                    //     var recommendations = myFirebase.listProduct;
+                    //     setTimeout(pushStuff(), 500);
+                    //     function pushStuff() {
+                    //         recommendations.set({
+                    //             "SP": "trung"
+                    //         });
+                    //     }
+                    // };
+                });
+                // return(courseName[0]);
+            });
+
+    }
+
+    window.onload(FetchAllData());
+
+    console.log(courseName);
+
+    
+</script>
+
+</html>

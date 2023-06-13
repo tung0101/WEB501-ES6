@@ -1,0 +1,23 @@
+[
+  {
+      "id": 1,
+      "image": "carousel-1.jpg",
+      "name": "Men Fashions",
+      "content": "hello",
+      "active": "active"
+  },
+  {
+      "id": 2,
+      "image": "carousel-2.jpg",
+      "name": "New Fashions",
+      "content": "Hi"     
+      
+  },
+  {
+      "id": 3,
+      "image": "carousel-3.jpg",
+      "name": "Young Fashions",
+      "content": "Hi-Hello"  
+      
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab7</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!--Navigation bar showing the Simpler Trading Brand Image-->
+
+
+    <!-- Panel with Login tab and Register Tab-->
+    <section class="main-section">
+        <div class="container">
+            <div class="user signinbox">
+                <div class="imagebox"> <img src="kPlWgwj.png"> </div>
+                <div class="formbox">
+                    <div class="form">
+                        <h2>Đăng nhập</h2> <input type="text" placeholder="username" name="usernamelogin" id="usernamelogin" > <input type="password" placeholder="Password" name="passwordlogin" id="passwordlogin"> <input type="submit" value="Đăng nhập" style="width: 200px">
+                        <p class="signup-text">Không có tài khoản? <a href="#" onClick="toggleform(); "  value="Click to Register" type="submit">Đăng ký</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="user signupbox">
+                <div class="formbox">
+                    <div class="form">
+                        <h2>Đăng ký</h2> <input type="text" placeholder="Name" name="username" id="username"> <input type="email" placeholder="Email" name="passwordlogin" id="passwordlogin">
+                        <input type="password" placeholder="Password" name="password" id="password"> <input type="submit" value="Login" type="submit">
+                        <p class="signup-text">Bạn đã có tài khoản?
+                            <a href="#" onClick="toggleform();" >Đăng nhập</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="imagebox"> <img src="K230JeW.jpg"> </div>
+            </div>
+        </div>
+    </section>
+    <!-- partial -->
+    <script src='https://codepen.io/sripavani/pen/WpQyYJ.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>    
+    <script src="./lab67.js" type="module"></script>
+    <script src="./form.js" ></script>
+
+</body>
+
+</html>
